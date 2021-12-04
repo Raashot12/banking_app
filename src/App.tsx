@@ -31,7 +31,7 @@ function App() {
   }
    const handleBankrupt = ()=> {
     
-     if(state >= 2){
+     if(state >= 2 || state === 1){
      swalWithBootstrapButtons
        .fire({
          title: "Are you sure?",
